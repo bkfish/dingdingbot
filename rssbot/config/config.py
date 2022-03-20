@@ -11,7 +11,7 @@ if key == "localhost":
     mysql_host = "127.0.0.1"
     mysql_port = "3306"
     mysql_user = "root"
-    mysql_pass = ".."
+    mysql_pass = ""
     mysql_database = "auditrss"
 
     # 钉钉 Token
@@ -22,7 +22,7 @@ else:
     mysql_host = "127.0.0.1"
     mysql_port = "3306"
     mysql_user = "root"
-    mysql_pass = ".."
+    mysql_pass = ""
     mysql_database = "auditrss"
 
     # 钉钉 Token

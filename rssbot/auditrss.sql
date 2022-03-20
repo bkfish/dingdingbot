@@ -1,12 +1,6 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 106.54.90.219
- Source Server Type    : MySQL
- Source Server Version : 80028
- Source Host           : 106.54.90.219:3306
- Source Schema         : auditrss
-
  Target Server Type    : MySQL
  Target Server Version : 80028
  File Encoding         : 65001

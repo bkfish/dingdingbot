@@ -11,22 +11,22 @@ if key == "localhost":
     mysql_host = "127.0.0.1"
     mysql_port = "3306"
     mysql_user = "root"
-    mysql_pass = "nanyidian.."
+    mysql_pass = ".."
     mysql_database = "auditrss"
 
     # 钉钉 Token
-    ding_robot_token = "2e34db3ea145acf561cd6641c96859e06575c4b3f6b61f3b05fb2b32b555936b"
+    ding_robot_token = ""
 
 else:
     # Mysql 配置
     mysql_host = "127.0.0.1"
     mysql_port = "3306"
     mysql_user = "root"
-    mysql_pass = "nanyidian.."
+    mysql_pass = ".."
     mysql_database = "auditrss"
 
     # 钉钉 Token
-    ding_robot_token = "2e34db3ea145acf561cd6641c96859e06575c4b3f6b61f3b05fb2b32b555936b"
+    ding_robot_token = ""
 
 
 mysql_client = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(mysql_user, mysql_pass, mysql_host, int(mysql_port),
